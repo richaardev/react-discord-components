@@ -1,0 +1,21 @@
+.embed-author-container {
+    display: flex;
+    align-items: center;
+    margin: 8px 0 0;
+}
+.embed-author-image {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 8px;
+}
+.embed-author-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--header-primary);
+    text-decoration: none;
+}
+.embed-author-name:hover {
+    text-decoration: underline;
+}

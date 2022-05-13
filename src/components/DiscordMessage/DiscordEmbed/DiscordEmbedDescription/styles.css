@@ -1,0 +1,15 @@
+.embed-description {
+    margin: 8px 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    grid-column: 1/1;
+    color: var(--text-normal);
+}
+
+.embed-description a {
+    color: var(--text-link);
+    text-decoration: none;
+}
+.embed-description a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+.embed-thumbnail {
+    grid-row: 1/8;
+    grid-column: 2/2;
+    margin-left: 16px;
+    margin-top: 8px;
+    flex-shrink: 0;
+    justify-self: end;
+    width: 80px;
+    height: 80px;
+}
+.embed-thumbnail-image {
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 3px;
+}

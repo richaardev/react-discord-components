@@ -1,0 +1,22 @@
+.embed-footer-container {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.embed-footer-icon {
+    width: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.embed-footer-text {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-normal);
+}
+.embed-footer-separator {
+    font-weight: 500;
+    color: var(--text-normal);
+    display: inline-block;
+    margin: 0 4px;
+}

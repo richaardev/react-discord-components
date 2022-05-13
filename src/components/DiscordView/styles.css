@@ -1,0 +1,41 @@
+.discord-view {
+    background-color: var(--background-primary);
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    forced-color-adjust: none;
+}
+h2 {
+    margin: 0;
+    font-size: 1em;
+}
+
+em {
+    text-decoration: underline;
+}
+
+code {
+    width: auto;
+    height: auto;
+    padding: 0.2em;
+    margin: -0.2em 0;
+    border-radius: 3px;
+    font-size: 85%;
+    font-family: Consolas, Andale Mono WT, Andale Mono, Lucida Console,
+        Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+        Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace;
+    text-indent: 0;
+    border: none;
+    white-space: pre-wrap;
+
+    background-color: var(--scrollbar-thin-thumb);
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    border-radius: 4px;
+    color: var(--header-secondary);
+    text-size-adjust: none;
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-tertiary);
+}

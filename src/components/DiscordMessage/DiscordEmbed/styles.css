@@ -1,0 +1,13 @@
+.embed {
+    border-left: 4px solid var(--background-tertiary);
+    border-color: hsl(149, calc(var(--saturation-factor, 1) * 85.4%), 59.8%);
+    border-radius: 4px;
+    background-color: var(--background-secondary);
+    max-width: 412px;
+}
+.embed-contents {
+    padding: 8px 16px 16px 12px;
+    display: inline-grid;
+    grid-template-columns: auto -webkit-min-content;
+    overflow: hidden;
+}

@@ -1,0 +1,7 @@
+.embed-image {
+    margin-top: 16px;
+    grid-column: 1/3;
+}
+.embed-image-content {
+    border-radius: 3px;
+}

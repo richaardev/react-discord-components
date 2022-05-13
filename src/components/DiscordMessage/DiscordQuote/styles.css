@@ -1,0 +1,15 @@
+.block-quote {
+    display: flex;
+}
+/* .block-quote-divider { */
+.block-quote::before {
+    content: " ";
+    width: 4px;
+    border-radius: 4px;
+    background-color: var(--interactive-muted);
+}
+
+blockquote {
+    margin: 0;
+    padding: 0 8px 0 12px;
+}

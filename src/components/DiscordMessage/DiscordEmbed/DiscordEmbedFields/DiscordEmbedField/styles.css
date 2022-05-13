@@ -1,0 +1,22 @@
+.embed-field {
+    font-size: 14px;
+}
+
+.embed-field-name {
+    color: var(--header-primary);
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.embed-field strong {
+    font-weight: 700;
+}
+
+.embed-field-value {
+    color: var(--text-normal);
+    font-weight: 400;
+}
+
+.embed-field-value img {
+    width: 18px;
+    vertical-align: middle;
+}
