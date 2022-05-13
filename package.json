@@ -1,7 +1,7 @@
 {
-  "name": "react-discord-components",
+  "name": "@richaardev/react-discord-components",
   "version": "1.0.0",
-  "description": "A library thats implements discord components on reactjs",
+  "description": "Web components that show fake discord messages in your reactjs project",
   "author": "richaardev",
   "license": "MIT",
   "repository": "richaardev/react-discord-components",
@@ -62,5 +62,8 @@
   ],
   "dependencies": {
     "moment": "^2.29.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
